@@ -61,7 +61,7 @@ The current result suggests that a strong pretrained monocular metric-depth mode
 
 ## Visualization
 
-![Underwater depth demo GIF](https://github.com/user-attachments/assets/a2fdddbe-37a2-4fce-bb08-132df5d33088)
+![Underwater depth demo GIF](https://github.com/user-attachments/assets/797fd016-4ba6-4f7b-b998-11e0739024db)
 
 ## References
 
