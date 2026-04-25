@@ -2,7 +2,7 @@
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2)
 [![Downloads](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2&query=downloads&label=Downloads)](https://huggingface.co/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2)
 [![Likes](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2&query=likes&label=Likes)](https://huggingface.co/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2)
-[![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Space-brightgreen)](https://huggingface.co/spaces/hdnndh/NEMO-Underwater-Demo)
+[![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Space-brightgreen)](https://hdnndh-nemo-underwater-demo.hf.space/)
 
 # Nemo-MDE
 
