@@ -9,6 +9,20 @@ nemo.. bc.. underwater...
 
 This repository presents a real-data underwater metric depth model using **Monocular Depth Estimation** on **Sea-thru** and **SQUID**.
 
+## Demo
+
+Demo can be found in the huggingface space
+The model produces accurate **relative** depth out of the box, but absolute metric values may need correction for your specific underwater environment (different water type, camera, depth range).
+
+The [demo Space](https://huggingface.co/spaces/hfhfhn/NEMO-Underwater-Demo) includes a **built-in calibration tool**:
+
+1. Upload **1–10 underwater images** where you have known ground-truth depth (from stereo, SfM, or a depth sensor).
+2. Upload the **matching depth maps** (grayscale, pixel values = meters).
+3. Click **Calibrate** — we solve for the optimal `scale` and `shift` via least squares so that `corrected = scale × predicted + shift`.
+4. All subsequent predictions automatically apply the correction.
+
+Even 1–3 pairs from your target environment can dramatically improve absolute accuracy. The tool reports R² so you can judge fit quality.
+
 ## Overview
 
 Underwater metric depth estimation remains difficult because visibility degradation changes appearance in ways that are very different from standard in-air imagery. This work evaluates a metric-depth model in underwater scenes with real underwater RGB-depth supervision, comparing two pretraining initializations (Indoor vs. Outdoor) and measuring the impact of geometric augmentation on cross-dataset generalization.
