@@ -15,7 +15,7 @@ This repository presents a real-data underwater metric depth model using **Monoc
 Demo can be found in the huggingface space
 The model produces accurate **relative** depth out of the box, but absolute metric values may need correction for your specific underwater environment (different water type, camera, depth range).
 
-The [demo Space](https://huggingface.co/spaces/hdnndh/NEMO-Underwater-Demo) includes a **built-in calibration tool**:
+The [demo Space](https://hdnndh-nemo-underwater-demo.hf.space/) includes a **built-in calibration tool**:
 
 1. Upload **1–10 underwater images** where you have known ground-truth depth (from stereo, SfM, or a depth sensor).
 2. Upload the **matching depth maps** (grayscale, pixel values = meters).
