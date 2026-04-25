@@ -1,7 +1,8 @@
 
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/hfhfhn/NEMO-Underwater_Finetuned_DepthAnythingV2)
-[![Downloads](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/hfhfhn/NEMO-Underwater_Finetuned_DepthAnythingV2&query=downloads&label=Downloads)](https://huggingface.co/hfhfhn/NEMO-Underwater_Finetuned_DepthAnythingV2)
-[![Likes](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/hfhfhn/NEMO-Underwater_Finetuned_DepthAnythingV2&query=likes&label=Likes)](https://huggingface.co/hfhfhn/NEMO-Underwater_Finetuned_DepthAnythingV2)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2)
+[![Downloads](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2&query=downloads&label=Downloads)](https://huggingface.co/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2)
+[![Likes](https://img.shields.io/badge/dynamic/json?url=https://huggingface.co/api/models/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2&query=likes&label=Likes)](https://huggingface.co/hdnndh/NEMO-Underwater_Finetuned_DepthAnythingV2)
+[![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Space-brightgreen)](https://huggingface.co/spaces/hdnndh/NEMO-Underwater-Demo)
 
 # Nemo-MDE
 
@@ -14,7 +15,7 @@ This repository presents a real-data underwater metric depth model using **Monoc
 Demo can be found in the huggingface space
 The model produces accurate **relative** depth out of the box, but absolute metric values may need correction for your specific underwater environment (different water type, camera, depth range).
 
-The [demo Space](https://huggingface.co/spaces/hfhfhn/NEMO-Underwater-Demo) includes a **built-in calibration tool**:
+The [demo Space](https://huggingface.co/spaces/hdnndh/NEMO-Underwater-Demo) includes a **built-in calibration tool**:
 
 1. Upload **1–10 underwater images** where you have known ground-truth depth (from stereo, SfM, or a depth sensor).
 2. Upload the **matching depth maps** (grayscale, pixel values = meters).
